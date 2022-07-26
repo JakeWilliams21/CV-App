@@ -1,0 +1,18 @@
+.summary-div {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    padding: 3vh 0;
+}
+
+.summary-form {
+    width: 90%
+}
+
+.summary-form textarea {
+    width: 100%;
+}
+
