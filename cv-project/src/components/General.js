@@ -10,7 +10,8 @@ const General = (props) => {
                 <input onChange = {props.handleChange} name = 'phone' id = 'phone' type={'number'} placeholder = 'Phone'/>
                 <input onChange = {props.handleChange} name = 'email' id = 'email' type={'email'} placeholder = 'Email'/>
                 <input onChange = {props.handleChange} name = 'address' id = 'address' type={'text'} placeholder = 'Address'/>
-                <button>📷 Upload A Photo</button>
+                <input name = 'image' id = 'profilePic' type = 'file' hidden />
+                <button type = 'button' htmlFor = 'profilePic' onClick = {props.handleImage}>📷 Upload A Photo</button>
                 </div>
             </div>
     )

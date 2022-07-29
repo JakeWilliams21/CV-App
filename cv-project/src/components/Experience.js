@@ -5,12 +5,11 @@ const Experience = (props) => {
 
     return (
         <div className="experience-form">
-            <h2>{props.title}</h2>
             <div className="input-div">
-                <input type={'text'} placeholder = 'Employer' id = 'employer'/>
-                <input type={'text'} placeholder = 'Role' id = 'role'/>
-                <input type={'date'} placeholder = 'From' id = 'from'/>
-                <input type={'date'} placeholder = 'To' id = 'to'/>
+                <input name = 'employer' type={'text'} placeholder = 'Employer' id = 'employer'/>
+                <input name = 'role' type={'text'} placeholder = 'Role' id = 'role'/>
+                <input name = 'jobFrom' type={'date'} placeholder = 'From' id = 'from'/>
+                <input name = 'jobTo' type={'date'} placeholder = 'To' id = 'to'/>
             </div>
         </div>
     )
